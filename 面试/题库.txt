@@ -1,0 +1,32 @@
+1.事件对象在IE与FF中有哪几个共同的属性呢？ 
+	http://www.jbxue.com/article/6598.html
+2.IE的innerHTML需要注意哪些问题？
+	IE的部分标签不支持innerHTML
+3.请指出slice,substr,substring的不同
+	http://www.cnblogs.com/littledu/archive/2011/04/18/2019475.html 
+4.如何判定一个对象是数组（请写出完整的函数） 
+	http://www.nowamagic.net/librarys/veda/detail/1250
+5.如果动态加载JS文件（请写出完整的函数） 
+	http://blog.163.com/hzungang@126/blog/static/126683613201172104056273/
+	http://www.oschina.net/question/864662_110994
+6.用正则取得某个标签里面的innerText 
+	http://msdn.microsoft.com/zh-cn/library/ae5bf541(VS.80).aspx
+	function scriptHTML(str){
+	  return str.replace(/<.*?>/g,'');
+	}
+
+7.请实现javascript 1.8的filter方法 
+	
+8.将下面URL所带参数全部分解出来，返回一个对象（请写出完整的函数） 
+%3BS%3Ahttp%3A%2F%2Fwww.cnblogs.com%2F%3BFORID%3A1&hl=zh-CN 
+	
+9.判定一个字符串是否符合（2012-01-12）这样的日期格式（请写出完整的函数）
+	function checkDate(str){
+		var pa = /\d{4}\/\d{2}\/\d{2}/g;
+		return pa.test(str);
+	}
+10.计算出两个Date对象的相差的日数
+	http://www.cnblogs.com/RobotTech/archive/2006/12/20/598124.html
+	
+	
+答案：http://weixiang096.blog.163.com/blog/static/1274735552011926102321197/
